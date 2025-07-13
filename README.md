@@ -1,23 +1,25 @@
-# Task Management System – Backend
+# Task Management System #
+A flexible and modular task management system based on ASP.NET Core Web API.
+Designed for organizations or teams to manage tasks, sub-tasks, statuses, and permissions, with a strong emphasis on scalability, layer separation, and extensive use of Design Patterns.
 
-מערכת ניהול משימות גמישה ומודולרית, מבוססת ASP.NET Core Web API.  
-המערכת מיועדת לארגונים או צוותים לניהול משימות, תתי-משימות, סטטוסים והרשאות, עם דגש על סקלביליות, הפרדה בין שכבות, ושימוש נרחב ב-Design Patterns.
+## 🛠️ Technologies ##
+ASP.NET Core Web API
 
----
+C#
 
-## 🛠️ טכנולוגיות
+Design Patterns
 
-- **ASP.NET Core Web API**
-- **C#**
-- **Design Patterns**
-- **Fronted-in process**
----
+Frontend-in process
 
-## 🧠 Design Patterns בשימוש
+## 🧠 Design Patterns in Use ##
+Builder – For the gradual construction of complex objects (tasks)
 
-- **Builder** – לבנייה הדרגתית של אובייקטים מורכבים (משימות)
-- **Observer** – לניהול התראות על שינויים במצב משימה
-- **State** – לייצוג מעברים בין סטטוסים (ToDo, In Progress, Done)
-- **Strategy** – למיון וסינון משימות לפי קריטריונים משתנים
-- **Composite** – לתמיכה במשימות הכוללות תתי-משימות בצורה היררכית
-- **Chain of Responsibility** – לחלוקת אחריות בין מחלקות בטיפול באירועים
+Observer – For managing notifications on task status changes
+
+State – For representing transitions between statuses (ToDo, In Progress, Done)
+
+Strategy – For sorting and filtering tasks based on changing criteria
+
+Composite – For supporting hierarchical tasks with sub-tasks
+
+Chain of Responsibility – For delegating responsibility between classes in handling events
